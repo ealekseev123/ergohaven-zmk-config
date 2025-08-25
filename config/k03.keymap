@@ -50,11 +50,11 @@
 
         sym {
             bindings = <
-&trans  &trans    &kp AT        &kp DLLR       &kp HASH           &trans                              &trans  &trans     &kp CARET       &trans    &trans  &trans
-&trans  &kp N1    &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4       &kp NUMBER_5                        &kp N6  &kp N7     &kp N8          &kp N9    &kp N0  &trans
-&trans  &kp BSLH  &kp COLON     &kp EQUAL      &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE                    &trans  &kp MINUS  &kp LEFT_BRACE  &kp RBRC  &trans  &trans
-&trans  &trans    &kp CARET     &kp RS(COLON)  &kp AMPERSAND      &trans            &trans    &trans  &trans  &trans     &trans          &trans    &trans  &trans
-                  &trans        &trans         &trans             &mo 3             &trans    &trans  &trans  &trans     &trans          &trans
+&trans  &trans    &kp AT        &kp DLLR      &kp HASH           &trans                          &trans  &trans     &kp CARET         &trans             &trans  &trans
+&trans  &kp N1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4       &kp NUMBER_5                    &kp N6  &kp N7     &kp N8            &kp N9             &kp N0  &trans
+&trans  &kp BSLH  &kp COLON     &kp EQUAL     &kp DOUBLE_QUOTES  &kp GRAVE                       &trans  &kp MINUS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans
+&trans  &trans    &kp CARET     &kp SEMI      &kp AMPERSAND      &trans        &trans    &trans  &trans  &trans     &trans            &trans             &trans  &trans
+                  &trans        &trans        &trans             &mo 3         &trans    &trans  &trans  &trans     &trans            &trans
             >;
 
             display-name = "Symbols";
